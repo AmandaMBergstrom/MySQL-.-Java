@@ -3,10 +3,6 @@
  */
 package projects.entity;
 
-/**
- * @author Promineo
- *
- */
 public class Step {
   private Integer stepId;
   private Integer projectId;
@@ -47,6 +43,6 @@ public class Step {
 
   @Override
   public String toString() {
-    return "ID=" + stepId + ", stepText=" + stepText;
+    return "ID = " + stepId + ", Step Text = " + stepText;
   }
 }
