@@ -5,10 +5,6 @@ package projects.entity;
 
 import java.math.BigDecimal;
 
-/**
- * @author Promineo
- *
- */
 public class Material {
   private Integer materialId;
   private Integer projectId;
@@ -58,7 +54,7 @@ public class Material {
 
   @Override
   public String toString() {
-    return "ID=" + materialId + ", materialName=" + materialName + ", numRequired=" + numRequired
-        + ", cost=" + cost;
+    return "ID = " + materialId + ", Material Name = " + materialName + ", Number Required = " + numRequired
+        + ", Cost = " + cost;
   }
 }
