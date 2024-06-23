@@ -7,10 +7,6 @@ import java.math.BigDecimal;
 import java.util.LinkedList;
 import java.util.List;
 
-/**
- * @author Promineo
- *
- */
 public class Project {
   private Integer projectId;
   private String projectName;
@@ -87,12 +83,12 @@ public class Project {
   public String toString() {
     String result = "";
     
-    result += "\n   ID=" + projectId;
-    result += "\n   name=" + projectName;
-    result += "\n   estimatedHours=" + estimatedHours;
-    result += "\n   actualHours=" + actualHours;
-    result += "\n   difficulty=" + difficulty;
-    result += "\n   notes=" + notes;
+    result += "\n   ID = " + projectId;
+    result += "\n   Project Name = " + projectName;
+    result += "\n   Estimated Hours = " + estimatedHours;
+    result += "\n   Actual Hours = " + actualHours;
+    result += "\n   Difficulty = " + difficulty;
+    result += "\n   Notes = " + notes;
     
     result += "\n   Materials:";
     
